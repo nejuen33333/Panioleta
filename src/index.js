@@ -8,6 +8,8 @@ import { Login } from "./UI/Screens/LoginScreen";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
+    <View></View>
+
     <div>
       <Button />
     </div>
