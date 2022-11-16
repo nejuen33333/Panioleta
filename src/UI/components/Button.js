@@ -1,4 +1,9 @@
 import React from "react";
+
 export function Button() {
-  return <button></button>;
+  return (
+    <>
+      <button>Mi boton</button>
+    </>
+  );
 }

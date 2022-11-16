@@ -3,4 +3,13 @@ import ReactDOM from "react-dom/client";
 import { Button } from "./UI/components/Button";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Button />);
+root.render(
+  <>
+    <div>
+      <Button />
+    </div>
+    <div>
+      <Button />
+    </div>
+  </>
+);
